@@ -1,9 +1,11 @@
 # "Baricentro" della Sardegna
 
+([English version here](README_eng.md))
+
 ![Baricentro](img/1_center.png)
 
 Un candidato a "baricentro" della Sardegna (`script1_GEOSGetCentroid.py`)  
-Situato nel [Comune di Neoneli](https://it.wikipedia.org/wiki/Neoneli) ([provincia di Oristano](https://it.wikipedia.org/wiki/Provincia_di_Oristano)), quasi al confine con il [Comune di Austis](https://it.wikipedia.org/wiki/Austis) ([provincia di Nuoro](https://it.wikipedia.org/wiki/Provincia_di_Nuoro)), molto vicino al [monumento naturale di Sa Crabarissa](https://www.sardegnainblog.it/5296/sa-crabarissa-austis-foto-leggenda/)
+Situato nel [comune di Neoneli](https://it.wikipedia.org/wiki/Neoneli) ([provincia di Oristano](https://it.wikipedia.org/wiki/Provincia_di_Oristano)), quasi al confine con il [comune di Austis](https://it.wikipedia.org/wiki/Austis) ([provincia di Nuoro](https://it.wikipedia.org/wiki/Provincia_di_Nuoro)), molto vicino al [monumento naturale di Sa Crabarissa](https://www.sardegnainblog.it/5296/sa-crabarissa-austis-foto-leggenda/)
 
 ### Overview
 
@@ -24,13 +26,15 @@ Obiettivo di questa analisi è localizzare un possibile "baricentro" della Sarde
 
 ##### `script1_GEOSGetCentroid.py`
 
+**[Script](script1_GEOSGetCentroid.py)**
+
 **Origine dati**  
 Sardegna Geoportale, **[PPR06 - Linea di costa](http://webgis2.regione.sardegna.it/catalogodati/card.jsp?uuid=R_SARDEG:QRHAF)**
 
 **Algoritmo per il calcolo del centroide**  
-`geos::algorithm::Centroid`, see [GEOS doxygen](https://geos.osgeo.org/doxygen/classgeos_1_1algorithm_1_1Centroid.html)
+`geos::algorithm::Centroid`, vedere [GEOS doxygen](https://geos.osgeo.org/doxygen/classgeos_1_1algorithm_1_1Centroid.html)
 
-**Centroide**  
+**Posizione del centroide**  
 Latitudine <u>9.035341385985763</u>, Longitudine <u>40.085501904848066</u>  
 [Punto su Google Maps](https://www.google.com/maps/search/?api=1&query=40.085501904848066,9.035341385985763)  
 [Punto su OpenStreetMaps](http://www.openstreetmap.org/?mlat=40.085501904848066&mlon=9.035341385985763&zoom=15)
